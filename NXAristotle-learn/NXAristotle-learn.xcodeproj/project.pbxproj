@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D249D03D1E63BF0300BC7430 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D249D03C1E63BF0300BC7430 /* main.m */; };
+		D249D0401E63BF0300BC7430 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D249D03F1E63BF0300BC7430 /* AppDelegate.m */; };
+		D249D0431E63BF0300BC7430 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D249D0421E63BF0300BC7430 /* ViewController.m */; };
+		D249D0461E63BF0300BC7430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D249D0441E63BF0300BC7430 /* Main.storyboard */; };
+		D249D0481E63BF0300BC7430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D249D0471E63BF0300BC7430 /* Assets.xcassets */; };
+		D249D04B1E63BF0300BC7430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D249D0491E63BF0300BC7430 /* LaunchScreen.storyboard */; };
+		D249D0561E63BF0300BC7430 /* NXAristotle_learnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D249D0551E63BF0300BC7430 /* NXAristotle_learnTests.m */; };
+		D249D0611E63BF0300BC7430 /* NXAristotle_learnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D249D0601E63BF0300BC7430 /* NXAristotle_learnUITests.m */; };
+		D249D0711E63BF5300BC7430 /* NXTestTouchIDAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D249D06F1E63BF5300BC7430 /* NXTestTouchIDAboutViewController.xib */; };
+		D249D0721E63BF5300BC7430 /* NXTestTouchIDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D249D0701E63BF5300BC7430 /* NXTestTouchIDAboutViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D249D0521E63BF0300BC7430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D249D0301E63BF0300BC7430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D249D0371E63BF0300BC7430;
+			remoteInfo = "NXAristotle-learn";
+		};
+		D249D05D1E63BF0300BC7430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D249D0301E63BF0300BC7430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D249D0371E63BF0300BC7430;
+			remoteInfo = "NXAristotle-learn";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D249D0381E63BF0300BC7430 /* NXAristotle-learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NXAristotle-learn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D249D03C1E63BF0300BC7430 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D249D03E1E63BF0300BC7430 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D249D03F1E63BF0300BC7430 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D249D0411E63BF0300BC7430 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D249D0421E63BF0300BC7430 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D249D0451E63BF0300BC7430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D249D0471E63BF0300BC7430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D249D04A1E63BF0300BC7430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D249D04C1E63BF0300BC7430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D249D0511E63BF0300BC7430 /* NXAristotle-learnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NXAristotle-learnTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D249D0551E63BF0300BC7430 /* NXAristotle_learnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXAristotle_learnTests.m; sourceTree = "<group>"; };
+		D249D0571E63BF0300BC7430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D249D05C1E63BF0300BC7430 /* NXAristotle-learnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NXAristotle-learnUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D249D0601E63BF0300BC7430 /* NXAristotle_learnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXAristotle_learnUITests.m; sourceTree = "<group>"; };
+		D249D0621E63BF0300BC7430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D249D06E1E63BF5300BC7430 /* NXTestTouchIDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTestTouchIDAboutViewController.h; sourceTree = "<group>"; };
+		D249D06F1E63BF5300BC7430 /* NXTestTouchIDAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXTestTouchIDAboutViewController.xib; sourceTree = "<group>"; };
+		D249D0701E63BF5300BC7430 /* NXTestTouchIDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTestTouchIDAboutViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D249D0351E63BF0300BC7430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D249D04E1E63BF0300BC7430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D249D0591E63BF0300BC7430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D249D02F1E63BF0300BC7430 = {
+			isa = PBXGroup;
+			children = (
+				D249D03A1E63BF0300BC7430 /* NXAristotle-learn */,
+				D249D0541E63BF0300BC7430 /* NXAristotle-learnTests */,
+				D249D05F1E63BF0300BC7430 /* NXAristotle-learnUITests */,
+				D249D0391E63BF0300BC7430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D249D0391E63BF0300BC7430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D249D0381E63BF0300BC7430 /* NXAristotle-learn.app */,
+				D249D0511E63BF0300BC7430 /* NXAristotle-learnTests.xctest */,
+				D249D05C1E63BF0300BC7430 /* NXAristotle-learnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D249D03A1E63BF0300BC7430 /* NXAristotle-learn */ = {
+			isa = PBXGroup;
+			children = (
+				D249D06E1E63BF5300BC7430 /* NXTestTouchIDAboutViewController.h */,
+				D249D06F1E63BF5300BC7430 /* NXTestTouchIDAboutViewController.xib */,
+				D249D0701E63BF5300BC7430 /* NXTestTouchIDAboutViewController.m */,
+				D249D03E1E63BF0300BC7430 /* AppDelegate.h */,
+				D249D03F1E63BF0300BC7430 /* AppDelegate.m */,
+				D249D0411E63BF0300BC7430 /* ViewController.h */,
+				D249D0421E63BF0300BC7430 /* ViewController.m */,
+				D249D0441E63BF0300BC7430 /* Main.storyboard */,
+				D249D0471E63BF0300BC7430 /* Assets.xcassets */,
+				D249D0491E63BF0300BC7430 /* LaunchScreen.storyboard */,
+				D249D04C1E63BF0300BC7430 /* Info.plist */,
+				D249D03B1E63BF0300BC7430 /* Supporting Files */,
+			);
+			path = "NXAristotle-learn";
+			sourceTree = "<group>";
+		};
+		D249D03B1E63BF0300BC7430 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D249D03C1E63BF0300BC7430 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D249D0541E63BF0300BC7430 /* NXAristotle-learnTests */ = {
+			isa = PBXGroup;
+			children = (
+				D249D0551E63BF0300BC7430 /* NXAristotle_learnTests.m */,
+				D249D0571E63BF0300BC7430 /* Info.plist */,
+			);
+			path = "NXAristotle-learnTests";
+			sourceTree = "<group>";
+		};
+		D249D05F1E63BF0300BC7430 /* NXAristotle-learnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D249D0601E63BF0300BC7430 /* NXAristotle_learnUITests.m */,
+				D249D0621E63BF0300BC7430 /* Info.plist */,
+			);
+			path = "NXAristotle-learnUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D249D0371E63BF0300BC7430 /* NXAristotle-learn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D249D0651E63BF0300BC7430 /* Build configuration list for PBXNativeTarget "NXAristotle-learn" */;
+			buildPhases = (
+				D249D0341E63BF0300BC7430 /* Sources */,
+				D249D0351E63BF0300BC7430 /* Frameworks */,
+				D249D0361E63BF0300BC7430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NXAristotle-learn";
+			productName = "NXAristotle-learn";
+			productReference = D249D0381E63BF0300BC7430 /* NXAristotle-learn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D249D0501E63BF0300BC7430 /* NXAristotle-learnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D249D0681E63BF0300BC7430 /* Build configuration list for PBXNativeTarget "NXAristotle-learnTests" */;
+			buildPhases = (
+				D249D04D1E63BF0300BC7430 /* Sources */,
+				D249D04E1E63BF0300BC7430 /* Frameworks */,
+				D249D04F1E63BF0300BC7430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D249D0531E63BF0300BC7430 /* PBXTargetDependency */,
+			);
+			name = "NXAristotle-learnTests";
+			productName = "NXAristotle-learnTests";
+			productReference = D249D0511E63BF0300BC7430 /* NXAristotle-learnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D249D05B1E63BF0300BC7430 /* NXAristotle-learnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D249D06B1E63BF0300BC7430 /* Build configuration list for PBXNativeTarget "NXAristotle-learnUITests" */;
+			buildPhases = (
+				D249D0581E63BF0300BC7430 /* Sources */,
+				D249D0591E63BF0300BC7430 /* Frameworks */,
+				D249D05A1E63BF0300BC7430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D249D05E1E63BF0300BC7430 /* PBXTargetDependency */,
+			);
+			name = "NXAristotle-learnUITests";
+			productName = "NXAristotle-learnUITests";
+			productReference = D249D05C1E63BF0300BC7430 /* NXAristotle-learnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D249D0301E63BF0300BC7430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NXAristotle;
+				TargetAttributes = {
+					D249D0371E63BF0300BC7430 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L6R48C9T9C;
+						ProvisioningStyle = Automatic;
+					};
+					D249D0501E63BF0300BC7430 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D249D0371E63BF0300BC7430;
+					};
+					D249D05B1E63BF0300BC7430 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D249D0371E63BF0300BC7430;
+					};
+				};
+			};
+			buildConfigurationList = D249D0331E63BF0300BC7430 /* Build configuration list for PBXProject "NXAristotle-learn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D249D02F1E63BF0300BC7430;
+			productRefGroup = D249D0391E63BF0300BC7430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D249D0371E63BF0300BC7430 /* NXAristotle-learn */,
+				D249D0501E63BF0300BC7430 /* NXAristotle-learnTests */,
+				D249D05B1E63BF0300BC7430 /* NXAristotle-learnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D249D0361E63BF0300BC7430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D249D04B1E63BF0300BC7430 /* LaunchScreen.storyboard in Resources */,
+				D249D0711E63BF5300BC7430 /* NXTestTouchIDAboutViewController.xib in Resources */,
+				D249D0481E63BF0300BC7430 /* Assets.xcassets in Resources */,
+				D249D0461E63BF0300BC7430 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D249D04F1E63BF0300BC7430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D249D05A1E63BF0300BC7430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D249D0341E63BF0300BC7430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D249D0431E63BF0300BC7430 /* ViewController.m in Sources */,
+				D249D0721E63BF5300BC7430 /* NXTestTouchIDAboutViewController.m in Sources */,
+				D249D0401E63BF0300BC7430 /* AppDelegate.m in Sources */,
+				D249D03D1E63BF0300BC7430 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D249D04D1E63BF0300BC7430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D249D0561E63BF0300BC7430 /* NXAristotle_learnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D249D0581E63BF0300BC7430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D249D0611E63BF0300BC7430 /* NXAristotle_learnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D249D0531E63BF0300BC7430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D249D0371E63BF0300BC7430 /* NXAristotle-learn */;
+			targetProxy = D249D0521E63BF0300BC7430 /* PBXContainerItemProxy */;
+		};
+		D249D05E1E63BF0300BC7430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D249D0371E63BF0300BC7430 /* NXAristotle-learn */;
+			targetProxy = D249D05D1E63BF0300BC7430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D249D0441E63BF0300BC7430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D249D0451E63BF0300BC7430 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D249D0491E63BF0300BC7430 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D249D04A1E63BF0300BC7430 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D249D0631E63BF0300BC7430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D249D0641E63BF0300BC7430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D249D0661E63BF0300BC7430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6R48C9T9C;
+				INFOPLIST_FILE = "NXAristotle-learn/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xywy.TouchID.NXAristotle-learn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D249D0671E63BF0300BC7430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6R48C9T9C;
+				INFOPLIST_FILE = "NXAristotle-learn/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xywy.TouchID.NXAristotle-learn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D249D0691E63BF0300BC7430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NXAristotle-learnTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xywy.TouchID.NXAristotle-learnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXAristotle-learn.app/NXAristotle-learn";
+			};
+			name = Debug;
+		};
+		D249D06A1E63BF0300BC7430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NXAristotle-learnTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xywy.TouchID.NXAristotle-learnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXAristotle-learn.app/NXAristotle-learn";
+			};
+			name = Release;
+		};
+		D249D06C1E63BF0300BC7430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NXAristotle-learnUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xywy.TouchID.NXAristotle-learnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NXAristotle-learn";
+			};
+			name = Debug;
+		};
+		D249D06D1E63BF0300BC7430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NXAristotle-learnUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xywy.TouchID.NXAristotle-learnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NXAristotle-learn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D249D0331E63BF0300BC7430 /* Build configuration list for PBXProject "NXAristotle-learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D249D0631E63BF0300BC7430 /* Debug */,
+				D249D0641E63BF0300BC7430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D249D0651E63BF0300BC7430 /* Build configuration list for PBXNativeTarget "NXAristotle-learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D249D0661E63BF0300BC7430 /* Debug */,
+				D249D0671E63BF0300BC7430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D249D0681E63BF0300BC7430 /* Build configuration list for PBXNativeTarget "NXAristotle-learnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D249D0691E63BF0300BC7430 /* Debug */,
+				D249D06A1E63BF0300BC7430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D249D06B1E63BF0300BC7430 /* Build configuration list for PBXNativeTarget "NXAristotle-learnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D249D06C1E63BF0300BC7430 /* Debug */,
+				D249D06D1E63BF0300BC7430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D249D0301E63BF0300BC7430 /* Project object */;
+}
